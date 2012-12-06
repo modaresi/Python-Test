@@ -24,9 +24,15 @@ def main():
     for i, l in enumerate(s) :
         if l=='s': print('is in {}'.format(i))
     
-    
+    x=5
+    print('{:05b}'.format(x))
+    list=[1,2,3,4,5]
+    list[:] = range(100)
+    print(list[0:100])
     fibonachi()
     fact()
+    
+    
 
 #fibonachi
 def fibonachi():
